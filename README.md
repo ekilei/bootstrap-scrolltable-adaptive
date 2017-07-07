@@ -2,7 +2,7 @@
 Решение проблемы с появлением вертикального скролла при выпадающем меню в таблице<br>
 The solution to the problem with the appearance of a vertical scroller with a drop-down menu in the table
 
-Была необходимость в место стандартных yii2 ActionColumn поставить свой виджет с выпадающем меню<br>
+Была необходимость вместо стандартных yii2 ActionColumn поставить свой виджет с выпадающим меню<br>
 There was a need for a place for the standard yii2 ActionColumn to put its widget from the drop-down menu<br>
 https://github.com/ekilei/yii2-gridview-actionbuttons
 
@@ -10,8 +10,8 @@ https://github.com/ekilei/yii2-gridview-actionbuttons
 Тут возникли первые трудости:
 - появляется вертикальное меню при клике на выпадашку,
 - скрыл вертикальный скролл, теперь выпадашка уходит за пределы видимости блока.
-В итоге помогла одна хитрость полученная методом народного тыка.
-padding-bottom увеличиваем на нужно число пикселей чтобы влезла выпадашка, а потом margin-bottom уменьшаем на тоже количество пикселей. В итоге контент после таблицы остается на своем месте, а выпадашка появляется как надо.
+В итоге помогла одна хитрость, полученная методом народного тыка.
+padding-bottom увеличиваем на нужное число пикселей чтобы влезла выпадашка, а потом margin-bottom уменьшаем на такое же количество пикселей. В итоге контент после таблицы остается на своем месте, а выпадашка появляется как надо.
 
 On the mobile it would be desirable to have a horizontal scrolling of the table, and thus that the menu did not suffer.
 Here the first labor arose:
