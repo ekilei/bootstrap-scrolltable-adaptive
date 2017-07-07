@@ -1,6 +1,6 @@
 # bootstrap-scrolltable-adaptive
-Решение проблемы с появлением вертикального скролла при выпадающем меню в таблице<br>
-The solution to the problem with the appearance of a vertical scroller with a drop-down menu in the table
+## Решение проблемы с появлением вертикального скролла при выпадающем меню в таблице<br>
+## The solution to the problem with the appearance of a vertical scroller with a drop-down menu in the table
 
 Была необходимость вместо стандартных yii2 ActionColumn поставить свой виджет с выпадающим меню<br>
 There was a need for a place for the standard yii2 ActionColumn to put its widget from the drop-down menu<br>
